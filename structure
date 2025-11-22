@@ -1,0 +1,51 @@
+employee-management/
+│
+├── index.html                     # Dashboard: overview, stats, recent activity
+├── employees.html                 # Employee directory with search/filter
+├── attendance.html                # Track hours, shifts, status
+├── payroll.html                   # Salary, bonuses, deductions overview
+├── learn.html                     # HR guides, labor law resources, management tips
+├── about.html                     # Project overview, purpose, references
+│
+├── /css
+│   ├── main.css                   # Core styling
+│   ├── layout.css                 # Grid/flex for tables and dashboard
+│   ├── components.css             # Cards, tables, modals, buttons
+│   ├── colors.css                 # Professional, readable palette
+│   └── animations.css             # Hover effects, fade-ins, notifications
+│
+├── /js
+│   ├── main.js                    # Navbar, toggles, global scripts
+│   ├── employees.js               # Directory interactivity, search/filter
+│   ├── attendance.js              # Track hours, mark attendance
+│   ├── payroll.js                 # Calculate salary, display payroll info
+│   ├── learn.js                   # Load/display HR guides and tutorials
+│   └── utils.js                   # Reusable helper functions
+│
+├── /data
+│   ├── employees.json             # Employee info, roles, departments
+│   ├── attendance.json            # Optional: historical attendance records
+│   ├── payroll.json               # Optional: salary, bonuses, deductions
+│   └── guides.json                # HR guides, best practices, labor law references
+│
+├── /assets
+│   ├── images/
+│   │   ├── employees/             # Profile photos or placeholders
+│   │   └── ui/                    # Icons, banners, buttons
+│   │
+│   ├── icons/                     # SVGs for department, roles, HR tools
+│   └── fonts/                     # Professional fonts for readability
+│
+├── /components
+│   ├── navbar.html
+│   ├── footer.html
+│   ├── employee-card.html         # Employee profile card
+│   ├── attendance-row.html        # Table row for attendance tracking
+│   ├── payroll-row.html           # Table row for payroll entries
+│   └── guide-card.html            # HR guide or resource preview
+│
+└── /docs
+    ├── design.md                  # UI style, color palette, layout notes
+    ├── content-plan.md            # HR guides, employee info, features
+    ├── roadmap.md                 # Future expansion: notifications, analytics
+    └── sources.md                 # References for HR, labor laws, templates
